@@ -1,6 +1,6 @@
 <?php
 
-namespace Faiznurullah\Tiktok\Resources\Analytics;
+namespace Faiznurullah\Tiktok\Resources\Analitycs;
 
 use Faiznurullah\Tiktok\Resources\BaseResource;
 
@@ -9,7 +9,7 @@ use Faiznurullah\Tiktok\Resources\BaseResource;
  * 
  * Handles analytics-related endpoints
  */
-class AnalyticsResource extends BaseResource
+class AnalitycsResource extends BaseResource
 {
     
     /**
