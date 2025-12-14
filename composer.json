@@ -1,0 +1,36 @@
+{
+    "name": "faiznurullah/tiktok",
+    "description": "PHP SDK for TikTok Shop API with extensible architecture for marketplace integration",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["tiktok", "shop", "api", "sdk", "ecommerce", "marketplace"],
+    "autoload": {
+        "psr-4": {
+            "Faiznurullah\\Tiktok\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faiznurullah\\Tiktok\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faiznurullah",
+            "email": "faizn103a@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.10"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
